@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.btn {
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.text-secondary {
+    color: #444343;
+}
+
+.mt-130 {
+    margin-top: 130px;
+}
+
+.font-18{
+    font-size: 18px;
+}
+/* header styles */
+.banner {
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 200px;
+    display: flex;
+    justify-content: end;
+}
+
+.header-content {
+    width: 525px;
+    text-align: right;
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-description {
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    color: white;
+    background-color: #F15B22;
+}
+
+/* main part styles */
+.failures {
+    padding: 0px 200px;
+}
+
+.failures-content {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans{
+    padding: 0 200px;
+    text-align: center;
+}
+.plan-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.all-plans{
+    display: flex;
+    justify-content: space-around;
+}
+.plan .title{
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+.plan .description{
+    font-size: 25px;
+}
+.positive-mind-banner{
+    padding: 0 200px;
+}
+.call{
+    /*width: 100%;*/
+    background-image:url('../images/watch.png'),linear-gradient(90deg, #F15B22 0%, rgba(241, 93, 34, 0.233) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    background-blend-mode: multiply;
+    border-radius: 8px;
+}
+.positive-mind-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.call-btn,
+.subscribe-btn{
+    color:  #F15B22;
+}
+/* footer style */
+footer{
+    background-color: #151414;
+    padding: 130px 200px;
+}
+.footer-container{
+   display: flex;
+   justify-content: center;
+}
+.contact{
+    color: white;
+}
+.contact p{
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.contact .title{
+    font-size: 45px;
+    font-weight: 700;
+}
+form .title{
+    font-size: 25px;
+    color: white;
+}
+form input{
+    /*width: 100%;*/
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 24px;
+}
