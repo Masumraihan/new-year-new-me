@@ -13,6 +13,7 @@
     font-size: 20px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .text-secondary {
@@ -23,9 +24,10 @@
     margin-top: 130px;
 }
 
-.font-18{
+.font-18 {
     font-size: 18px;
 }
+
 /* header styles */
 .banner {
     background-image: url("../images/banner/banner2.png");
@@ -58,50 +60,67 @@
 }
 
 /* main part styles */
-.failures {
+
+/* failures and achievement styles */
+.failures,
+.achievement {
     padding: 0px 200px;
 }
 
-.failures-content {
+.failures-content,
+.achievement-content {
     display: flex;
     gap: 80px;
     justify-content: space-between;
     align-items: center;
 }
 
-.failure-title {
+.failure-title,
+.achievement-title {
     font-weight: 700;
     font-size: 40px;
 }
 
-.plans{
+.failure-list i,
+.achievement-list i {
+    color: #16D887;
+}
+
+/* plan styles */
+.plans {
     padding: 0 200px;
     text-align: center;
 }
-.plan-title{
+
+.plan-title {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 50px;
 }
-.all-plans{
+
+.all-plans {
     display: flex;
     justify-content: space-around;
 }
-.plan .title{
+
+.plan .title {
     font-size: 30px;
     margin-top: 24px;
     margin-bottom: 16px;
     font-weight: 700;
 }
-.plan .description{
+
+.plan .description {
     font-size: 25px;
 }
-.positive-mind-banner{
+
+.positive-mind-banner {
     padding: 0 200px;
 }
-.call{
+
+.call {
     /*width: 100%;*/
-    background-image:url('../images/watch.png'),linear-gradient(90deg, #F15B22 0%, rgba(241, 93, 34, 0.233) 100%);
+    background-image: url('../images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 93, 34, 0.233) 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -109,44 +128,56 @@
     background-blend-mode: multiply;
     border-radius: 8px;
 }
-.positive-mind-title{
+
+.positive-mind-title {
     font-size: 40px;
     font-weight: 700;
     color: white;
 }
+
 .call-btn,
-.subscribe-btn{
-    color:  #F15B22;
+.subscribe-btn {
+    color: #F15B22;
 }
+
 /* footer style */
-footer{
+footer {
     background-color: #151414;
     padding: 130px 200px;
 }
-.footer-container{
-   display: flex;
-   justify-content: center;
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
 }
-.contact{
+
+.contact {
     color: white;
 }
-.contact p{
+
+.contact p {
     margin-bottom: 16px;
     font-size: 18px;
 }
-.contact .title{
+
+.contact .title {
     font-size: 45px;
     font-weight: 700;
 }
-form .title{
+
+form .title {
     font-size: 25px;
     color: white;
 }
-form input{
-    /*width: 100%;*/
+
+form input[type="email"] {
+    background: none;
+    border: 1px solid white;
     padding: 20px 25px;
     font-weight: 600;
     font-size: 20px;
     border-radius: 5px;
     margin-top: 24px;
+    margin-bottom: 24px;
 }
